@@ -5,7 +5,8 @@ body{margin: 0%;
     height: auto;
 }
 
-body{background: url(Tony_tigre.jpg);
+body{background: url(img/679373.jpg) no-repeat center fixed;
+    background-size: cover;
     display: flex;
     justify-content: center;
     margin-top: 200px;
@@ -14,7 +15,8 @@ body{background: url(Tony_tigre.jpg);
 .foto{margin-left: auto;
     margin-right: auto; 
     border-radius: 50%;
-
+    max-width: 300px;
+    max-height: 300px;
 }
 p{
     text-align: center;
@@ -32,14 +34,14 @@ h2{
     font-family: verdana;
     font-size: 20px;
 }
-.foto:hover{
-    transition: 0.5;
-    transform: 1px; ;
-}
+
 .tudo{
     border: 5px solid rgb(33, 34, 82);
   border-radius: 5px;
   padding: 5px;
   background-color:whitesmoke;
-  width: 300px;
+  width: 400px;
+}
+.github{
+    width: 100px;
 }
